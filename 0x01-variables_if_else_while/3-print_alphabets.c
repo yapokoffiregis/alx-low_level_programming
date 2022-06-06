@@ -1,10 +1,10 @@
 #include <stdio.h>
+
 /**
-*
-*main - alphabet lowercase then uppercase
-*
-*Return: Always 0 (success)
-*/
+ * main - lowercase and uppercase
+ *
+ * Return: Always 0 (success)
+ */
 
 int main(void)
 {
