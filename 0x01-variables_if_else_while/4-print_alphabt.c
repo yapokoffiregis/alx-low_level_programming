@@ -9,8 +9,7 @@
 int main(void)
 {
 	char i;
-	char tab[26];
-	tab="abcdfghijklmnoprstuvwxyz";
+	char tab[26] = "abcdfghijklmnoprstuvwxyz";
 
 	for (i = 0; i <= 24; i++)
 		putchar(tab[i]);
