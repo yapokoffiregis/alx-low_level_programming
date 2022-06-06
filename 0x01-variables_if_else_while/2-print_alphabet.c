@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  *  main - alphabet in lowercase
  *  
@@ -7,12 +8,14 @@
 
 int main(void)
 {
-	int alphabet;
+	char alphabet;
 
-for (alphabet = 97; alphabet <= 122; alphabet++)
+	for (alphabet = 97; alphabet <= 122; alphabet++)
 	{
-	putchar(alphabet);
+		putchar(alphabet);
 	}
+
 	putchar('\n');
-return (0);
+
+	return (0);
 }
