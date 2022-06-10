@@ -1,20 +1,16 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * _isdigit - checks digits
- *@c: digit to check
- *
- * Return: 1 if is digit 0 otherwise
+ * _isupper - checks is a character is uppercase
+ * @c: carrier integer variable
+ * Return: 1 if true, 0 if false
  */
 
-int _isdigit(int c)
+int _isupper(int c)
 {
-	if (c >= 0 && c <= 9)
+	if (c >= 65 && c <= 90)
 	{
-	return (1);
+		return (1);
 	}
-	else
-	{
 	return (0);
-	}
 }
