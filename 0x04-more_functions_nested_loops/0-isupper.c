@@ -1,17 +1,14 @@
-#include <stdio.h>
-#include <ctype.h>
 #include "main.h"
 
 /**
- * isupper - Entry mode
- *
- * Return: 0
+ * _isupper - Checks for uppercase characters.
+ * @c: input character.
+ * Return: 1 if c is uppercase and 0 if otherwise.
  */
 
 int _isupper(int c)
 {
-	
-	if(c >= 65 && c <= 90)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
@@ -19,4 +16,5 @@ int _isupper(int c)
 	{
 		return (0);
 	}
+
 }
