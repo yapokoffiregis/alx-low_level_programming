@@ -3,7 +3,7 @@
 /**
  * print_numbers - Entry point
  *
- * @: print 0 to 9.
+ * @i: print 0 to 9.
  *
  * Return: 0.
  */
@@ -12,7 +12,7 @@ void print_numbers(void)
 {
 	int i;
 	
-	for (i = '0'; i <= '9'; i++)
+	for (i = 48; i <= 57; i++)
 	{
 		putchar(i);
 	}
