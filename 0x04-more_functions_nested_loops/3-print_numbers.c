@@ -3,9 +3,7 @@
 /**
  * print_numbers - Entry point
  *
- * @i: print 0 to 9.
- *
- * Return: 0.
+ * Return: no return.
  */
 
 void print_numbers(void)
