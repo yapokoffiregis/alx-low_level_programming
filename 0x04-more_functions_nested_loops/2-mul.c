@@ -2,6 +2,8 @@
 
 /**
  * multiplication - multiplcate 2 integers
+ * @a: input first integer
+ * @b: input second integer
  *
  * Return: Always 0
  */
