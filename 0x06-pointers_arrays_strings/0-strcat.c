@@ -1,9 +1,9 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * *_strcat - appends the src string to the dest string
  *
  * @dest: pointer to the destination string
- * @src: pointer to de source string
+ * @src: pointer to the source string
  * Description: This will append the src string to the dest string
  * Return: a pointer to the resulting string dest
  */
